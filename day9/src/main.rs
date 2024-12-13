@@ -16,7 +16,7 @@ fn main() {
 
 
     
-    fn part1(res: &mut Vec<Option<usize>>) {
+    fn _part1(res: &mut Vec<Option<usize>>) {
         let mut i = 1;
         while _has_pattern(&res) {
             let n = res.len()-i;
